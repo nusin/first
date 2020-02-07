@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lab02_image_link.html</title>
+</head>
+<body>
+    <!-- 이미지 -->
+    <h1>1. 이미지</h1>
+    <h2>1-1. 웹페이지에서 이미지 가져오기</h2>
+    <img src="https://cdn0.iconfinder.com/data/icons/social-network-9/50/22-512.png" alt="html5"> <br>
+    <img src="https://cdn0.iconfinder.com/data/icons/social-network-9/50/22-512.png" alt="html5" width="60px" height="60px"> <br>
+    <img src="https://cdn0.iconfinder.com/data/icons/social-network-9/50/22-512.png" style="width: 80;px; height: 80px;"> 
+    
+    <br>
+
+    <h2>1-2. img 폴더 내 존재하는 이미지 가져오기</h2>
+    <h3>1-2-1. 절대경로로 가져오기</h3>
+    <img src="/img/search.png" alt="search">
+
+    <h3>1-2-2 상대경로로 가져오기</h3>
+    <img src="../img/search.png" alt="search">
+    <!-- 현재 작업중인 파일이 기준이 됨 -->
+
+    <br><hr><br>
+
+    <!-- 링크 -->
+    <h1>2. 링크</h1>
+    <a href="https://www.iconfinder.com/" target="_self">2-1. 아이콘파인더 사이트로 이동(현재 페이지에서 이동)</a> <br>
+    <a href="https://www.iconfinder.com/" target="_blank">2-2. 아이콘파인더 사이트로 이동(새로운 페이지에서 이동)</a> <br>
+    <a href="/intro.html">2-3. intro.html로 이동(절대경로)</a> <br>
+    <a href="../intro.html" >2-4. intro.html로 이동(상대경로)</a> <br>
+
+    <a href="https://www.iconfinder.com/" target="_self">
+        <img src="../img/like_full.png" alt="iconfinder"></a>
+        iconfider 사이트로 이동(이미지 링크를 통해 이동)
+
+        
+
+</body>
+</html>

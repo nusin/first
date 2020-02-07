@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>small project</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="css/instaNavSet_back.css">
+
+    </head>
+    <body> 
+        <div class="wrap">
+        <!-- 상단 -->
+            <header class="w3-container">
+                <!-- 내비게이션 -->
+                <nav class="center bar"> 
+                    <!-- 중앙 로고 -->
+                    <div class="w3-display-container w3-mobile bar">
+                        <div id="logo" class="w3-display-middle">
+                            <a href="insta.html">
+                                <h1>Social Media</h1>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 우측 아이콘 3개 -->
+                    <div id="icons" class="w3-display-container w3-mobile bar">
+                        <div class="w3-display-bottommiddle">
+                            <!-- 연결하고자 하는 기능 페이지 & 아이콘 -->
+                            <a href="insta.html">
+                                user
+                            </a>
+                            <a href="insta_quiz.html">
+                                clipboard
+                            </a>
+                            <a href="insta_ml.html">
+                                webcam
+                           </a>
+                           
+                        </div>
+                    </div>
+                </nav>                
+            </header>
+
+            <!-- 메인 내용 -->
+            <section class="w3-row">
+                <div class="center">
+                <!-- 좌측 영역 -->
+                    <div class="umg"></div> <!-- w3-col s7 m7 l8 w3-mobile*/ -->
+
+                        <!-- 게시글 (하단 영역 복사해서 입력) -->
+                        <div class="post w3-border w3-white">
+                            <!-- 프로필 영역 -->
+                            <div class="w3-margin">
+                                <!-- 유저 프로필 사진-->
+                                <img class="user-face w3-left w3-circle" src="img/profile.jpg" alt="profile">
+                                <!-- 유저 아이디 -->
+                                <div class="h32 w3-display-container">
+                                    <div class="l40 w3-display-left user-id">suns</div>
+                                    <!-- 시간 -->
+                                <div class="post-time l40 w3-display-right">2020.02.05</div>
+                                </div>
+                            </div>
+                                                     <!-- 이미지 영역 -->
+
+                            <!-- ### <div class="post-img"> 
+                                <img style="width: 100%; max-height: initial" src="img/cat.jpg" alt="img">
+                            </div>-->
+                            <!-- 기존 사진에서 글로 바꾸기 위해 주석처리함 -->
+
+                            <div class="margin" style="text-align: center;">별 하나에 추억과<br>
+                                 별 하나에 쓸쓸함과<br>
+                                 별 하나에 풍경과 <br>
+                                 별 하나에 시와<br>
+                                 별 하나에 어머니, 어머니</div>
+                            <!-- 글 영역 -->
+                            <div class="w3-margin">
+​
+                                    <!-- 본문 영역 -->
+                                <span class="user-id">suns</span> 별헤는 밤 - 윤동주<br>
+                                <a class="hashtag" href="https://www.instagram.com/explore/tags/%EB%B3%84%ED%97%A4%EB%8A%94%EB%B0%A4/" target="_blank">#별 헤는 밤</a>
+                                <a class="hashtag" href="https://www.instagram.com/explore/tags/%EC%9C%A4%EB%8F%99%EC%A3%BC%EC%8B%9C%EC%9D%B8/" target="_blank">#윤동주시인</a>
+                                <br><br>
+                                <!-- 버튼 영역 -->
+                                
+                                <input type="button" id="like1" class="btn like-empty">
+                                <input type="button" onclick ="changeComment('comment1')" class="btn cmt"><br>
+                              
+
+                                <!-- 좋아요 갯수 -->
+                                <p class="post-like">좋아요 875개</p>
+                                <p id="comment1">댓글</p>
+                                
+                                
+                            </div>
+                        </div>
+                        <!-- 여기까지 -->
+
+                                                
+                        <!-- 게시글2 (하단 영역 복사해서 입력) -->
+                        <div class="post w3-border w3-white">
+                            <!-- 프로필 영역 -->
+                            <div class="w3-margin">
+                                <!-- 유저 프로필 사진-->
+                                <img class="user-face w3-left w3-circle" src="img/profile.jpg" alt="profile">
+                                <!-- 유저 아이디 -->
+                                <div class="h32 w3-display-container">
+                                    <div class="l40 w3-display-left user-id">suns</div>
+                                    <!-- 시간 -->
+                                <div class="post-time l40 w3-display-right">2020.02.05</div>
+                                </div>
+                            </div>
+                            <!-- 이미지 영역 -->
+                            <div class="post-img"> 
+                                <div class="video-container">                                 
+                                <!-- 기존 이미지 <img style="width: 100%; max-height: initial" src="img/dog.jpg" alt="img"> -->
+                                <object data="//www.youtube.com/embed/DXOTAy2dbYg?autoplay=1" type="text/html"></object>
+                                <!-- //www.youtube.com/watch?v=Y_m_ybkRMAw&feature=emb_title -->
+                                <!-- //www.youtube.com/watch?embed/DXOTAy2dbYg?autoplay=1 -->
+                            </div>
+                            <!-- 글 영역 -->
+                            <div class="w3-margin">
+
+                                    <!-- 본문 영역 -->
+                                <span class="user-id">suns</span> 보고싶은 영화💕<br>
+                                <a class="hashtag" href="https://www.instagram.com/explore/tags/%EB%B2%84%EC%A6%88%EC%98%A4%EB%B8%8C%ED%94%84%EB%A0%88%EC%9D%B4/" target="_blank">#버즈오브프레이</a>
+                                <a class="hashtag" href="https://www.instagram.com/explore/tags/%ED%95%A0%EB%A6%AC%ED%80%B8/" target="_blank">#할리퀸</a>
+                                <a class="hashtag" href="https://www.instagram.com/explore/tags/2%EC%9B%945%EC%9D%BC%EB%8C%80%EA%B0%9C%EB%B4%89/" target="_blank">#2월5일대개봉🎉</a>
+                                <br><br>
+                                <!-- 버튼 영역 -->
+                                <input type="button" id="like1" class="btn like-empty">
+                                <input type="button" onclick ="changeComment('comment2')" class="btn cmt"><br>
+                                <!-- 좋아요 갯수 -->
+                                <p class="post-like">좋아요 721개</p>
+                                <p id="comment2">댓글...</p>
+                                
+                            </div>
+                        </div>
+                        </div>
+                        <!-- 여기까지 -->
+
+                        <!-- 게시글3 (하단 영역 복사해서 입력) -->
+                        <div class="post w3-border w3-white">
+                            <!-- 프로필 영역 -->
+                            <div class="w3-margin">
+                                <!-- 유저 프로필 사진-->
+                                <img class="user-face w3-left w3-circle" src="img/profile.jpg" alt="profile">
+                                <!-- 유저 아이디 -->
+                                <div class="h32 w3-display-container">
+                                    <div class="l40 w3-display-left user-id">suns</div>
+                                    <!-- 시간 -->
+                                <div class="post-time l40 w3-display-right">2020.02.05</div>
+                                </div>
+                            </div>
+                            <!-- 이미지 영역 -->
+                            <div class="post-img"> 
+                                <img style="width: 100%; margin-bottom: 10px; max-height: initial" src="img/플레이데이터2.jpg" alt="img">
+                                <img style="width: 100%; margin-top: 10px; height: 50px max-height: initial" src="img/플레이데이터1.jpg" alt="img">
+                            </div>
+                            <!-- 글 영역 -->
+                            <div class="w3-margin">
+
+                                    <!-- 본문 영역 -->
+                                <span class="user-id">suns</span> 일주일간 함께한 플레이데이터🌝<br>
+                                <a class="hashtag" href="https://www.instagram.com/explore/tags/%ED%94%8C%EB%A0%88%EC%9D%B4%EB%8D%B0%EC%9D%B4%ED%84%B0/ "target="_blank">#플레이데이터</a>
+                                <a class="hashtag" href="https://www.instagram.com/explore/tags/%EC%9B%B9%EA%B0%9C%EB%B0%9C/"target="_blank">#웹개발</a>
+                                <a class="hashtag" href="https://www.instagram.com/explore/tags/%EC%96%B4%EB%A0%A4%EC%9B%A1/"target="_blank">#어려웡</a>
+
+                                <br><br>
+                                <!-- 버튼 영역 -->
+                                <input type="button" id="like1" class="btn like-empty">
+                                <input type="button" class="btn cmt"><br>
+                                <!-- 좋아요 갯수 -->
+                                <p class="post-like">좋아요 999개<sup>+</sup></p>
+                                <p id="comment">댓글</p>
+                                
+                                
+                            </div>
+                        </div>
+                        <!-- 여기까지 -->
+
+
+</div>
+            </section>
+            <!-- copyright 및 이메일 기입 영역 -->
+            <footer class="bar">
+                <div class="footer">
+                    <b>&copy;copyright INS</b><br>
+                    encore@encore.com
+                </div>
+            </footer>
+        </div>
+        <script>
+            function changeComment(id) {
+                const style = document.getElementById(id).style;
+                if(style.display == "none") {
+                    style.display = "block";
+                } else {
+                    style.display = "none";
+                }
+            }
+        </script>
+    </body>
+</html>

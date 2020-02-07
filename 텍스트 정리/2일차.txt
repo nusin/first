@@ -1,0 +1,151 @@
+2일차
+
+# HTML
+04. 멀티미디어
+ - 멀티미디어 비디오(Video)
+video
+	source src="삽입예정 비디오 파일 경로"
+	type=video
+
+
+# CSS 기초
+- CSS(Cascading Style Sheets)란?
+Cascading - 구조화된 문서(ex, HTML)를 
+어떻게 나타낼 것인가(Style)
+정의하는 시트 언어(Sheet)
+
+# CSS문법
+선택자(Selector)	선언문(Declaration)
+P		{font-weight: bold; 
+		 font-size: 25px;}
+		속성명(Property)	속성값(Value) 선언구분자(;)
+선언 블록(Declaration block)	선언완료(;)
+
+# 주석
+/* 주석은 코드의 설명 */
+
+# CSS 종류
+- 인라인 스타일(inline Style) </>
+- 내부 스타일 시트(Internal style sheet) 
+- 외부 스타일 시트(External style sheet) 외부의 CSS를 HTML로 가져와서 적용시킴
+
+# 인라인 스타일
+<p style=" ">
+
+# 내부 스타일 시트
+타이틀 헤드 사이에 스타일을 지정함
+
+*** 인라인이 가장 높은 적용 우선순위
+
+# 외부 스타일 시트
+<head>
+ <link rel="stylesheet" href="css/insta.css>
+</head>
+
+CSS는 HTML과 다르게 골격이 없음
+
+*** 스타일 시트는 가장 후단에 오는 순서로 적용
+
+어떤애를
+어떤 특성으로
+어떤 수치화를 할 것인가
+
+# CSS선택자 
+1. 태그선택자
+
+2. 아이디 선택자
+
+3. 클래스 선택자
+
+4. 그룹 선택자
+
+- 태그선택자(또는 HTML 요소 선택자)
+ex. p에 모든 값을 주는것
+
+- 아이디(id) vs 클래스(Class)
+아이디 -> 교유한 값, 중복이 되지 않음
+
+클래스 - 하나도 됨, 중복이 됨
+
+- 아이디 선택자(#)
+
+<style>
+ # p1 {
+	text-align: center;
+	color: coral;
+
+- 클래스 선택자(.)
+
+- 그룹 선택자(,)
+
+02. 기본속성
+- 색, 배경, 텍스트, 폰트, 링크, 리스트, 테이블
+
+- 색(Color)
+*이름 - 빨강(이름)
+
+*RGB - 0~255,#,#
+
+*16진수 - 0~9, 나머지 6개는 A~F
+"#ff0000" 같이 나타낼 수 있음
+
+# 배경(background)
+- background-color -> 
+
+- background-image
+- background-repeat -> 기본설정은 repeat
+repeat-x -> 수평반복
+repeat-y -> 수직반복
+no-repeat -> 반복없음
+
+body - 내용이 들어가는 곳
+
+- background-attachment
+-> 배경이미지를 스크롤에 따라 움직일지 말지 정하는 것
+--> scroll -> 스크롤 입장에서 생각해야함 
+fixed - 스크롤이 고정됨
+
+# 배경단축(축약, shorthand)
+
+# background-size
+--> 배경의 크기 설정
+cover -> 모든 것을 커버함
+contain -> 가로나 세로 중 큰 쪽에 맞춰 조정됨 - 원하지 않게 조정되는 경우 많음
+
+# 그래디언트(gradient)
+background-image: linear-gradient();
+
+# 텍스트(text)
+color	
+text-decoration - 
+text-align	
+line-height - 줄간격
+text-decoration - 밑줄, 취소선...
+
+# 폰트(font)
+font-size -> 16px=1em이 기본
+rem -> r부분은 상대적 크기
+
+- font-family -> 내부에 글자체를 가지고 있음
+
+- 글자체마다 저작권이있음, 무료저작권 사용하기
+
+- 링크 - 링크는 바디에서 쓰이지 않음, 헤드에서 쓰임 -> 가상선택자 : 
+link, visited, hover, active, focus
+
+# 리스트
+list-style-type
+list-style-image - 그림 넣어주기
+list-style-psition - inside, outside
+shorthand
+
+# 테이블
+border -> 실선 solid(실선)
+boder-collapse -> 테두리 굵은것을 한줄로 함
+vertical-align -> 테이블 안의 값들을 정렬해줌
+
+border: 1px solid pink;
+
+배경과 링크부분 중요함
+
+*** Oven

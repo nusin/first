@@ -1,0 +1,282 @@
+신윤기멘토
+1일차 - HTML
+2일차 - CSS
+3일차 - Linux
+
+
+4일차 - CSS
+5일차 - Javascript
+6일차 - 딥러닝API
+
+
+1일차 HTML
+개요 -> 기본(문법) -> 서버에 전달하는 법
+
+# 삶의 질을 높여줄 대표적인 기술트렌드
+자율사물(Autonomoous Things)
+인공지능 로봇, 드론
+
+몰입기술(Immersive Technologies)
+VR, AR
+MR(혼합현실)
+현실 서비스 몰입가능
+
+# Web Architecture이해
+
+Client -> Device/Browser를 통해 접속 ->(protocol) Web Server에서 가져옴 -> Web Application Server -> 데이터가 많아서 Database Server에서 가져옴
+
+# HTTP
+HyperText Trasfer Protocol(하이퍼본문 전송규약)
+
+클라이언트가 웹서버에 접속할 때 사용하는 대표적 프로토콜
+
+HTTP Request - HTTP Response
+get과 post
+
+# HTML이란?
+HyperText Markup Language
+
+웹에서 웹으로 이동할때 링크라는 용어를 사용
+
+어떤곳으로 이동할 수 있는 기능이 있음
+
+Markup - 이동할때 내용과 구조를 이야기한다
+
+이런 언어를 HTML이라고 함
+HTML은 웹표준언어 - 웹에서 이동, 정보제공할 때 사용
+
+# Web Browser
+사파리, 엣지, 크롬, 파이어폭스...
+
+# Web Edtor(언어를 사용하는 프로그램)
+Visual Studio Code
+
+# Visual Studio Code 사용하기
+live server 기능 추가
+
+korean Language Pack -> 한국어사용
+
+02. Web Page 구성요소 및 속성
+# HTML기본구조(Structure)
+HTML - 뼈대
+
+기본 아이디어, 설계담당
+
+헤드 - 기본 정보
+바디 - 웹페이지 내용
+
+# HTML요소 (Element)
+<tagname>Contents</tagname>
+start tag content end tag
+
+# HTML 빈 요소(Empty Elenet)
+
+                      Content값이 없음
+meta charset="UTF-8" 
+
+br, hr, img, input, link
+
+# 속성(Attribute)
+
+  속성명       속성값
+<img src="Hello.jpg">
+
+lang, title, style, id, class
+
+# 주석(Comments)
+<!-- 주석은 코드의 설명 -->
+
+ctrl + B => 탐색기 
+Alt + L - Alt + o => 라이브서버
+
+주석 단축키는 블록처리후 ctrl+/
+
+
+# HTML 텍스트
+
+제목(Heading) 단락 내용
+
+ctrl + Alt 아래방향키 esc
+
+제목 -> <h#>으로 표시
+단락 -> <p>로 표시
+
+<hr> -> 수평선 그어짐
+<br> -> 줄바꿈
+
+# HTML텍스트(Text)
+굵은 글씨 사용
+<b>
+<strong>
+
+기울어진 글씨
+<i>이탤릭체</i>
+<em>이탤릭체</em> 
+
+형광펜 기능
+<mark>마크</mark>
+
+삽입, 삭제 기능
+<ins>삽입</ins>
+<del>삭제</del>
+
+위첨자, 아래첨자(수학에서 x제곱, H2O등을 표시할때 사용)
+<sup>위첨자</sup>
+<sub>아래첨자</sub>
+
+# HTML스타일(style)
+<taname(h3같은 것을 말함)
+style="prperty(font-size, color 등등) :value;">     -> 시작태그(tagname)뒤에 바로 들어감
+Contents</tagname>
+
+스타일 기능은 CSS쪽으로 많이 이전됨, 둘이 연계해서 생각할 수 있음
+
+Alt + Shift + 아래 방향키 -> 복사됨
+
+# 이미지
+2차원적인 공간에서 시각적으로 표현된 모든구성요소 = 이미지
+
+<img src=" " alt=" ">
+src -> 소스(이미지 파일 경로), alt -> 이미지가 표시 되지 않을때 표시할 문장
+
+width값과 height값을 정해줄 수 있음
+
+# HTML경로(Path)
+URI(Uniform Rsource Identifie)
+
+URI와 URN으로 구분이 가능함
+URI -> Locator(주소)
+URN -> Name(그 대상만의 고유값)
+
+# HTML URL (Uniform Resource Locator)
+
+<프로토콜://ip주소:port번호/경로/파일명?쿼리>
+* 경로와 파일명 부분이 중요한 부분
+
+프로토콜 : Web Server요청 시 규약(주로 http)
+IP주소 : 네트워크 연결기기에 부여되는 고유번호
+port번호 : 웹서버 접근관문(http는 80)
+경로/파일명 : 웹서버 자원경로
+?쿼리 : 웹서버 요청 파라미터(key1=value1)
+
+메인페이지는 보통 index.html에 들어감
+http://125.209.222.141:80/index.html
+
+# HTML URL
+절대(Absolute) URL
+상대(Relative) URL
+
+# 실습
+iconfinder - 무료아이콘파일들 있음
+
+# HTML링크(Link)
+<a href=" ">
+" " -> 이동예정경로
+절대경로 
+상대경로
+
+이동예정경로에 들어갈 수 있음
+id
+script
+
+# target='
+
+
+# 공간분할(=레이아웃)
+공간적 분할 의미적분할
+
+블록 -> 줄 전체가 범위
+
+인라인 -> 글씨까지만 범위
+
+# 의미적분할
+시멘틱(semantic)
+header
+
+nav(내비게이션) - 메뉴창?
+
+section
+article(section에 포함)	aside--> article이 아닌 모든 부분을 aside라고 함
+
+footer
+
+# HTML심화
+리스트/테이블    폼    페이지이동    멀티미디어
+
+1. 데이터정렬
+# 리스트(list)
+dl - 설명하기 위한 리스트
+dt
+dd
+
+# 리스트(순서없는 항목)
+<ul> - unodered
+<li>
+
+Alt+ctrl+방향키
+
+# 순서있는 항목
+ol
+
+# 테이블(Table)
+행(row)
+열(Column)
+
+행과 열이 만나는 부분 = 셀
+table로 시작
+caption - 제목
+tr - table row
+th - table head
+td - table data
+
+thead - th와 같은 역할
+
+# 병합
+colspan -> 열을 합쳐주니까 가로병합이 됨
+rowspan -> 행을 합쳐주니까 세로병합이 됨
+
+
+02. 데이터 입력
+# 폼 (실질적으로 데이터를 주고받는 부분)
+
+<form action=" " method=" ">
+	form elements
+</form>
+action -> 입력값을 어디로 보내줄건가?
+method -> 어떻게 보내줄건가? (get, post)
+
+w3school.com
+
+get -> 요청한 값이 넘어옴
+post -> 요청한 값이 넘어오지 않음
+
+보안적으로 post가 좋음
+get -> 값이 보여도 상관없는 경우 사용
+
+# 입력 데이터 전송방식(Method)
+get -> URL?key=value // Limit가 있음
+
+post -> 요청사항이 눈에는 보이지 않지만 요청사항 길이의 차이가 없음
+
+프로젝트 할때 많이 사용될 것
+
+# 입력데이터 전송양식(Form Elements)
+
+- 데이터 입력
+<input type="text">
+
+- ID/PW
+<input type="passward">
+* 비밀번호 같은 경우는 타입이 정해져 있음
+
+- 라디오 버튼
+라디오버튼이 여러개일 때 value값이 정해져야 함
+그래야 어떤 값이 넘어갈지 지정이 됨 (체크박스도..)
+
+html5 doctor
+
+- 선택박스
+option value=
+
+- 버튼
+

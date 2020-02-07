@@ -1,0 +1,17 @@
+.margin {
+display: table;
+/* margin: auto; */
+/* margin-right: auto; */
+margin-top: 20%;
+margin-bottom: 80%;
+position: relative;
+}
+
+.marginid {
+    display: table;
+    /* margin: auto; */
+    /* margin-right: auto; */
+    margin-top: 30%;
+    margin-bottom: 30%;
+    position: relative;
+    }
